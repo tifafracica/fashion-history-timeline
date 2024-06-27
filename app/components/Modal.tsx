@@ -3,7 +3,8 @@ import React from "react";
 type ModalProps = {
   event: {
     period: string;
-    img: string
+    img: string;
+    age: string;
   };
   onClose: () => void;
 }
@@ -15,7 +16,8 @@ const Modal: React.FC<ModalProps> = ({ event, onClose }) => {
         <button className="float-right" onClick={onClose}>
           Close
         </button>
-        <h2 className="pb-8 pt-8 text-center text-[3.25rem]">{event.period}</h2>
+        <h2 className="pb-2 pt- text-center text-[3.25rem]">{event.period}</h2>
+        <p className="pb-2 text-center text-[1.25rem]">{event.age}</p>
         <img src={event.img} alt={event.period} className="max-w-[80%] mx-auto h-auto" />
       </div>
     </div>

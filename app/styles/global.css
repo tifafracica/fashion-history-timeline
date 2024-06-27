@@ -1,0 +1,4 @@
+body {
+  @apply bg-center min-h-screen;
+  background-image: url('/src/images/assets/background.jpg');
+}
