@@ -11,7 +11,7 @@ type ModalProps = {
 
 const Modal: React.FC<ModalProps> = ({ event, onClose }) => {
   return (
-    <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center">
+    <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-[4]">
       <div className="bg-white p-4 rounded">
         <button className="float-right" onClick={onClose}>
           Close
