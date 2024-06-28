@@ -20,9 +20,17 @@ export default defineConfig({
       targets: [
         {
           src: 'src/images/assets',
-          dest: 'assets'
+          dest: ''
         }
       ]
     })
   ],
+  build: {
+    outDir: 'build/client',
+    rollupOptions: {
+      output: {
+        assetFileNames: 'assets/[name].[ext]'
+      }
+    }
+  }
 });
