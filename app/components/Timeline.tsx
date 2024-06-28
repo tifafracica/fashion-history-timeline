@@ -16,7 +16,7 @@ const events: Event[] = [
   { id: 4, age: "(476 d.C. - 1453 d.C.)", period: "Edad Media", img: "/fashion-history-timeline/assets/edad-media.jpg" },
   { id: 5, age: "(siglos XIV - XVI)", period: "Renacimiento", img: "/fashion-history-timeline/assets/renacimiento.jpg" },
   { id: 6, age: "(siglos XVII y principios del XVIII, 1600-1750)", period: "Barroco", img: "/fashion-history-timeline/assets/barroco.jpg" },
-  { id: 7, age: "(siglos XVII y principios del XVIII, 1720-1780)", period: "Rococó", img: "/fashion-history-timeline/assets/rococo.jpg" },
+  { id: 7, age: "(siglos XVII y principios del XVIII, 1720-1780)", period: "Rococó", img: "/fashion-history-timeline/assets/Rococo.jpg" },
   { id: 8, age: "finales del siglo XVIII - principios del XIX)", period: "Neoclásico - Imperio", img: "/fashion-history-timeline/assets/estilo-directoire-empire.jpg" },
   { id: 9, age: "(principios del siglo XIX)", period: "Romanticismo", img: "/fashion-history-timeline/assets/romanticismo.jpg" },
   { id: 10, age: "(1837-1901)", period: "Victoriana", img: "/fashion-history-timeline/assets/victoriana.jpg" },
